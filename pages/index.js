@@ -31,11 +31,14 @@ const Home = () => {
     //Need to fix this JSON error
     //Temp fix- passing an Array instead
     try {
-      const response = await fetch("http://localhost:8000/api/messages", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
+      const response = await fetch(
+        "https://anaspui-api.netlify.app/api/messages",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Failed to submit message");
