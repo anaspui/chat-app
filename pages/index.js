@@ -32,7 +32,7 @@ const Home = () => {
     //Temp fix- passing an Array instead
     try {
       const response = await fetch(
-        "https://anaspui-api.netlify.app/api/messages",
+        "https://elated-newt-culottes.cyclic.cloud/api/messages",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
