@@ -55,7 +55,7 @@ const Home = () => {
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
         >
           <svg class="bi me-2" width="40" height="32"></svg>
-          <span class="fs-4">Simple Live Chat</span>
+          <span class="fs-4">Live Chat</span>
         </a>
       </header>
       <Head>
@@ -108,7 +108,7 @@ const Home = () => {
 };
 function generateRandomUsername() {
   const firstName = [
-    "Michael",
+    "Anas",
     "Christopher",
     "David",
     "James",
@@ -121,7 +121,7 @@ function generateRandomUsername() {
     "Brian",
     "Anthony",
     "Richard",
-    "Charles",
+    "Omar",
   ];
   const randomFirstName =
     firstName[Math.floor(Math.random() * firstName.length)];
