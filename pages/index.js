@@ -32,7 +32,7 @@ const Home = () => {
     //Temp fix- passing an Array instead
     try {
       const response = await fetch(
-        "https://elated-newt-culottes.cyclic.cloud/api/messages",
+        "https://nest-chat-api-production.up.railway.app/api/messages",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
